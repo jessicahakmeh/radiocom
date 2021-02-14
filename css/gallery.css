@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #2199C3;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+
+.wrapper {
+    /* add this at the end */
+
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 0 50px;
+
+    padding: 30px 60px;
+    padding-right: 0; 	
+}
+
+ .wrapper {
+    grid-auto-flow: column;
+    grid-template-columns: auto;
+}
