@@ -1,0 +1,60 @@
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+table{
+    align-self:auto;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+td{
+    border: hidden;
+    color:#000080;
+
+}
+
+.intro{
+    font-size: 25px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+ul{
+    font-family:sans-serif; 
+    size: 30px;
+}
+
+h2{
+    color:#0000FF; 
+}
+
+a:link{
+    text-decoration: none!important; 
+    color: black;
+}
+
+.announcement{
+    border:3px; 
+    border-style:solid; 
+    border-color:#0000FF;
+    margin: 10px;
+    padding: 3px; 
+    align-content: center; 
+    overflow-wrap: break-word;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.notice{
+    font-size: 10px;
+    text-decoration: none;
+}
