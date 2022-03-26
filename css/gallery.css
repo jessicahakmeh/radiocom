@@ -23,6 +23,10 @@ h1 {
     grid-template-columns: repeat(6, auto);
     grid-gap: 0 50px;
 
-    padding: 20px 60px;
+    padding: 20px 50px;
     padding-right: 0; 	
+}
+
+.item{
+    margin-bottom: 10px;
 }
