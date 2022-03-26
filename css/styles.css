@@ -6,10 +6,10 @@ html {
 
 
 table{
-    align-self:auto;
-    box-sizing: border-box;
-    margin: 10px;
+      margin-left: auto;
+  margin-right: auto;
 }
+
 
 td{
     border: hidden;
@@ -23,6 +23,13 @@ td{
     box-sizing: border-box;
     overflow-wrap: break-word;
 }
+
+.pin{
+			display: inline;
+			float: right;
+			border: 1px dotted black;
+			margin: 0px 0px 15px 20px;
+		}
 
 ul{
     font-family:sans-serif; 
