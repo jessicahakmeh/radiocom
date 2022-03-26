@@ -22,14 +22,15 @@ td{
     margin: 10px;
     box-sizing: border-box;
     overflow-wrap: break-word;
+    float: left;
 }
 
 .pin{
-			display: inline;
-			float: right;
-			border: 1px dotted black;
-			margin: 0px 0px 15px 20px;
-		}
+	display: inline;
+	float: right;
+	border: 1px dotted black;
+	margin: 0px 0px 15px 20px;
+}
 
 ul{
     font-family:sans-serif; 
