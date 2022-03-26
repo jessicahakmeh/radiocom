@@ -8,6 +8,7 @@ html {
 table{
       margin-left: auto;
   margin-right: auto;
+	border: 1px #000080;
 }
 
 
@@ -22,9 +23,7 @@ td{
     margin: 10px;
     box-sizing: border-box;
     overflow-wrap: break-word;
-  display: flex;
-  align-items: center;
-  justify-content: center
+    float: left;
 }
 
 .pin{
@@ -32,7 +31,6 @@ td{
 	float: right;
 	border: 1px dotted black;
 	margin: 0px 0px 15px 20px;
-	flex-basis: 40%
 }
 
 ul{
